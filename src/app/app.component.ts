@@ -1,11 +1,9 @@
 import {Component, ViewChild} from '@angular/core';
 import {DropDownList} from '@syncfusion/ej2-dropdowns';
-import {Dialog} from '@syncfusion/ej2-popups';
 import {DateTimePicker} from '@syncfusion/ej2-calendars';
 import {
   DayService,
   DragAndDropService,
-  EJ2Instance,
   EventSettingsModel,
   MonthService,
   PopupOpenEventArgs,
